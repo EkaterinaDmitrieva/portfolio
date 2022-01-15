@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <style>
+        .body {
+            background: rgb(236, 234, 234);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .header {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 100px;
+            box-shadow: 0 5px 8px blue;
+        }
+        .main {
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            border:2px solid blue;
+            margin-top: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 5px;
+            padding-bottom: 20px;
+        }
+
+        .block {
+            background-color: white;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-top: 30px;
+            border-radius: 3px;
+        }
+        .title{
+            color: Blue;
+            font-weight: 900;
+            text-shadow: -3px -3px 2px gray;
+            font-size: 40px;
+        }
+
+        .work {
+            box-shadow: 0 7px 10px gray;
+            margin-top: 30px;
+            padding: 10px 10px;
+            display: flex;
+            background-color: lightgray;
+        }
+        .work-img{
+            width: 100%;
+            border:3px dashed blue;
+            border-radius: 5px;
+        }
+
+
+        .work-text-block{
+            padding-left: 20px;
+            color: gray;
+        }
+    </style>
+</head>
+<body class="body">
+    <div class="header">
+        <h1>
+            Екатерина Николаева
+        </h1>   
+        <h3>
+            Frontend-разработчик
+        </h3>
+    </div>
+    <div class="main">
+        <div class="block">
+            <h2 class="title">
+                Обо мне:
+            </h2>     
+            <p>
+                Начинающий front-end разработчик. 
+            </p>
+            <p>
+                Прохожу обучение программированию в IT-школе Илларионова. 
+            </p>
+            <p>
+                В данный момент активно изучаю язык разметки HTML. 
+            </p>
+            <p>
+                Обожаю походы, музыку.
+            </p>           
+        
+        </div>
+        <div class="block">
+            <h2 class="title">
+                Мои работы:
+            </h2>
+            <div class="work">    
+                <div >
+                    <img class="work-img" style="width:465px" src="1.png"/>
+                </div>              
+                <div class="work-text-block">              
+                    <h3>
+                        Вёрстка Кинопоиск
+                    </h3>
+                    <p>
+                        Шаблон Кинопоиск, использовал оригинальные иконки Кинопоиск. Работа была выполнена за 5 часов. Посмотреть подробнее можете в моём <a href="#">Instagram профиле</a>
+                    </p>
+                </div>
+            </div>
+            <div class="work">            
+                <div >
+                    <img class="work-img" style="height: 400px;" src="2.png"/>
+                </div>
+                <div class="work-text-block">
+                    <h3>
+                        Книжный магазин
+                    </h3>
+                    <p>
+                        Книжный магазин с моими любимыми книгами. Посмотреть подробнее можете в моём <a href="#">Instagram профиле</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            
+            <h2 class="title">
+                Мои навыки:
+            </h2>
+            <h3>
+                Front-end
+            </h3>
+            <p>Верстаю сайты на которые приятно смотреть</p>
+            <ul>
+                <li>
+                    HTML
+                </li>
+                <li>
+                    CSS
+                </li>
+            </ul>
+            <h3>
+                Soft-skills
+            </h3>
+            <p>Умею работать в команде. Ответственный, довожу дела до конца</p>
+        </div>
+    </div>
+</body>
+</html>
